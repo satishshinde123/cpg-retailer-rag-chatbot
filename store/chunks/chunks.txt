@@ -1,0 +1,656 @@
+
+================================================================================
+Chunk: 0
+Source: C:\Users\Satish Shinde\GEN_AI_IntelliBI_Material\GenAI Assignments\cpg-retailer-rag\data\retail_inventory_policy.pdf
+Page: 0
+================================================================================
+Retail Inventory and Replenishment Policy
+Synthetic CPG/Retail dataset for educational RAG projects.
+Inventory Rules
+Each SKU has a reorder point based on expected demand, supplier lead time and safety stock.
+A replenishment request should be created when available stock falls below the reorder point.
+Fast-moving SKUs should be reviewed daily, while slower-moving products may be reviewed weekly.
+SKU Inventory Parameters
+ SKU
+Product
+Current Stock
+Reorder Point
+Reorder Qty
+Lead Time
+BEV001
+Coca-Cola 500 ml
+180
+200
+500
+3 days
+BEV002
+Pepsi 500 ml
+320
+200
+500
+3 days
+SNK001
+Lay's Classic 52 g
+95
+150
+400
+4 days
+SNK002
+Bingo Salted Chips
+50 g
+210
+150
+400
+4 days
+FOOD001
+Britannia Good Day
+100 g
+120
+100
+300
+5 days
+DAI001
+Amul Taaza 1 L
+70
+100
+250
+1 day
+PC001
+Dove Shampoo 180
+ml
+65
+80
+200
+7 days
+
+================================================================================
+Chunk: 1
+Source: C:\Users\Satish Shinde\GEN_AI_IntelliBI_Material\GenAI Assignments\cpg-retailer-rag\data\retail_inventory_policy.pdf
+Page: 0
+================================================================================
+150
+400
+4 days
+FOOD001
+Britannia Good Day
+100 g
+120
+100
+300
+5 days
+DAI001
+Amul Taaza 1 L
+70
+100
+250
+1 day
+PC001
+Dove Shampoo 180
+ml
+65
+80
+200
+7 days
+PC002
+Colgate Toothpaste
+200 g
+145
+100
+250
+6 days
+HC001
+Surf Excel 1 kg
+75
+100
+250
+5 days
+HC002
+Vim Dishwash
+Liquid 500 ml
+160
+100
+250
+4 days
+Operational Guidance
+Coca-Cola 500 ml, Lay's Classic 52 g, Amul Taaza 1 L, Dove Shampoo and Surf Excel 1 kg are below their listed
+reorder points in this snapshot.
+Perishable dairy stock should be monitored for expiry and storage conditions in addition to quantity.
+
+================================================================================
+Chunk: 2
+Source: C:\Users\Satish Shinde\GEN_AI_IntelliBI_Material\GenAI Assignments\cpg-retailer-rag\data\retail_invoice_001.pdf
+Page: 0
+================================================================================
+Retail Invoice INV-1001
+Synthetic CPG/Retail dataset for educational RAG projects.
+Invoice Details
+ Field
+Value
+Invoice Number
+INV-1001
+Invoice Date
+15 September 2026
+Customer
+Aarav Retail Store
+City
+Pune, Maharashtra
+Payment Method
+UPI
+Line Items
+ SKU
+Product
+Qty
+Unit Price
+Amount
+BEV001
+Coca-Cola 500 ml
+24
+40
+960
+SNK001
+Lay's Classic 52 g
+30
+20
+600
+FOOD001
+Britannia Good Day 100
+g
+20
+30
+600
+HC001
+Surf Excel 1 kg
+10
+210
+2100
+Totals
+ Subtotal
+4260 INR
+GST
+0 INR (illustrative dataset)
+Invoice Total
+4260 INR
+
+================================================================================
+Chunk: 3
+Source: C:\Users\Satish Shinde\GEN_AI_IntelliBI_Material\GenAI Assignments\cpg-retailer-rag\data\retail_invoice_002.pdf
+Page: 0
+================================================================================
+Retail Invoice INV-1002
+Synthetic CPG/Retail dataset for educational RAG projects.
+Invoice Details
+ Field
+Value
+Invoice Number
+INV-1002
+Invoice Date
+18 September 2026
+Customer
+Green Basket Supermarket
+City
+Nashik, Maharashtra
+Payment Method
+Credit
+Line Items
+ SKU
+Product
+Qty
+Unit Price
+Amount
+BEV002
+Pepsi 500 ml
+40
+40
+1600
+SNK002
+Bingo Salted Chips 50 g
+35
+20
+700
+DAI001
+Amul Taaza 1 L
+25
+58
+1450
+PC001
+Dove Shampoo 180 ml
+8
+235
+1880
+PC002
+Colgate Toothpaste 200
+g
+12
+120
+1440
+Totals
+ Subtotal
+7070 INR
+GST
+0 INR (illustrative dataset)
+Invoice Total
+7070 INR
+
+================================================================================
+Chunk: 4
+Source: C:\Users\Satish Shinde\GEN_AI_IntelliBI_Material\GenAI Assignments\cpg-retailer-rag\data\retail_product_catalog.pdf
+Page: 0
+================================================================================
+CPG Retail Product Catalog
+Synthetic CPG/Retail dataset for educational RAG projects.
+Catalog Overview
+This catalog contains consumer packaged goods sold through retail stores and online channels. Prices are in
+Indian Rupees and represent illustrative retail prices.
+Products
+ SKU
+Product
+Brand
+Category
+Pack Size
+MRP (INR)
+BEV001
+Cola Soft Drink
+Coca-Cola
+Beverages
+500 ml
+40
+BEV002
+Carbonated Soft
+Drink
+Pepsi
+Beverages
+500 ml
+40
+SNK001
+Classic Potato
+Chips
+Lay's
+Snacks
+52 g
+20
+SNK002
+Salted Potato Chips
+Bingo
+Snacks
+50 g
+20
+FOOD001
+Good Day Biscuits
+Britannia
+Packaged Food
+100 g
+30
+FOOD002
+Marie Gold Biscuits
+Britannia
+Packaged Food
+250 g
+55
+DAI001
+Taaza Toned Milk
+Amul
+Dairy
+1 L
+58
+PC001
+Daily Shine
+Shampoo
+Dove
+Personal Care
+180 ml
+235
+PC002
+Strong Teeth
+Toothpaste
+Colgate
+Personal Care
+
+================================================================================
+Chunk: 5
+Source: C:\Users\Satish Shinde\GEN_AI_IntelliBI_Material\GenAI Assignments\cpg-retailer-rag\data\retail_product_catalog.pdf
+Page: 0
+================================================================================
+DAI001
+Taaza Toned Milk
+Amul
+Dairy
+1 L
+58
+PC001
+Daily Shine
+Shampoo
+Dove
+Personal Care
+180 ml
+235
+PC002
+Strong Teeth
+Toothpaste
+Colgate
+Personal Care
+200 g
+120
+HC001
+Matic Detergent
+Powder
+Surf Excel
+Home Care
+1 kg
+210
+HC002
+Dishwash Liquid
+Vim
+Home Care
+500 ml
+115
+Product Notes
+Beverages are generally sold through supermarkets, convenience stores and vending channels.
+Snacks have high promotional activity and are frequently sold through multi-pack offers.
+Dairy products require controlled storage and have shorter shelf lives than most packaged food.
+Personal care products commonly use percentage discounts during monthly retail campaigns.
+Home care products may have bulk-buy promotions for households and institutional customers.
+
+================================================================================
+Chunk: 6
+Source: C:\Users\Satish Shinde\GEN_AI_IntelliBI_Material\GenAI Assignments\cpg-retailer-rag\data\retail_promotion_policy.pdf
+Page: 0
+================================================================================
+CPG Retail Promotion Policy
+Synthetic CPG/Retail dataset for educational RAG projects.
+Promotion Types
+Percentage Discount: a fixed percentage reduction from the listed retail price.
+Buy-One-Get-One: customers receive an additional unit when eligibility conditions are met.
+Multi-Pack Offer: a discounted price is provided when customers purchase a specified quantity.
+Seasonal Campaign: discounts may be applied during approved festival or seasonal campaigns.
+Current Illustrative Promotions
+ Campaign
+Category
+Offer
+Eligibility
+Validity
+MONSOON26
+Beverages
+10% off
+Minimum 2 units
+1–30 Sep 2026
+SNACKFEST26
+Snacks
+Buy 5 get 1
+Retail stores
+15–30 Sep 2026
+HOMECARE26
+Home Care
+15% off
+Minimum basket ■500
+1–15 Oct 2026
+PERSONALCARE26
+Personal Care
+12% off
+Members only
+1–31 Oct 2026
+DAIRYDAILY26
+
+================================================================================
+Chunk: 7
+Source: C:\Users\Satish Shinde\GEN_AI_IntelliBI_Material\GenAI Assignments\cpg-retailer-rag\data\retail_promotion_policy.pdf
+Page: 0
+================================================================================
+HOMECARE26
+Home Care
+15% off
+Minimum basket ■500
+1–15 Oct 2026
+PERSONALCARE26
+Personal Care
+12% off
+Members only
+1–31 Oct 2026
+DAIRYDAILY26
+Dairy
+5% off
+Minimum 2 units
+Daily
+Promotion Conditions
+Promotions cannot be combined unless the campaign terms explicitly allow stacking.
+Discount eligibility is calculated before any applicable delivery charges.
+Retailers should retain campaign identifiers in transaction records for audit purposes.
+
+================================================================================
+Chunk: 8
+Source: C:\Users\Satish Shinde\GEN_AI_IntelliBI_Material\GenAI Assignments\cpg-retailer-rag\data\retail_return_policy.pdf
+Page: 0
+================================================================================
+Retail Return and Refund Policy
+Synthetic CPG/Retail dataset for educational RAG projects.
+Standard Returns
+Customers may request a return within 7 calendar days of delivery for eligible products.
+Products must be unused, unopened and in their original packaging unless the product was received damaged.
+A valid invoice or order reference is required for a return request.
+Approved refunds are normally processed to the original payment method.
+Damaged or Incorrect Products
+Customers should report visible damage or an incorrect product within 48 hours of delivery.
+Photographs of the package and product may be requested for verification.
+If the retailer confirms that the product was damaged in transit or incorrectly supplied, replacement or refund may
+be offered.
+Non-Returnable Items
+
+================================================================================
+Chunk: 9
+Source: C:\Users\Satish Shinde\GEN_AI_IntelliBI_Material\GenAI Assignments\cpg-retailer-rag\data\retail_return_policy.pdf
+Page: 0
+================================================================================
+If the retailer confirms that the product was damaged in transit or incorrectly supplied, replacement or refund may
+be offered.
+Non-Returnable Items
+Opened personal-care products are normally non-returnable for hygiene reasons.
+Opened food and beverage products are non-returnable unless a quality or safety issue is confirmed.
+Products marked as final sale are excluded from standard returns.
+Refund Timelines
+Card and UPI refunds may require 3–7 business days after approval.
+Cash-on-delivery refunds are processed according to the retailer's registered refund procedure.
+
+================================================================================
+Chunk: 10
+Source: C:\Users\Satish Shinde\GEN_AI_IntelliBI_Material\GenAI Assignments\cpg-retailer-rag\data\retail_sales_report.pdf
+Page: 0
+================================================================================
+CPG Retail Sales Report
+Synthetic CPG/Retail dataset for educational RAG projects.
+Monthly Sales Summary
+ Category
+June 2026
+July 2026
+August 2026
+September 2026
+Beverages
+■8.40 lakh
+■8.95 lakh
+■9.20 lakh
+■9.75 lakh
+Snacks
+■6.80 lakh
+■7.10 lakh
+■7.35 lakh
+■7.60 lakh
+Packaged Food
+■5.90 lakh
+■6.05 lakh
+■6.25 lakh
+■6.40 lakh
+Dairy
+■4.70 lakh
+■4.85 lakh
+■5.10 lakh
+■5.30 lakh
+Personal Care
+■4.20 lakh
+■4.55 lakh
+■4.90 lakh
+■5.15 lakh
+Home Care
+■5.10 lakh
+■5.30 lakh
+■5.60 lakh
+■5.85 lakh
+Top Products - September 2026
+ Rank
+Product
+Category
+Sales Value
+1
+Coca-Cola 500 ml
+Beverages
+■2.10 lakh
+2
+Lay's Classic 52 g
+Snacks
+■1.72 lakh
+3
+Surf Excel 1 kg
+Home Care
+■1.48 lakh
+4
+Amul Taaza 1 L
+Dairy
+■1.42 lakh
+5
+Dove Shampoo 180 ml
+Personal Care
+■1.31 lakh
+Interpretation Notes
+
+================================================================================
+Chunk: 11
+Source: C:\Users\Satish Shinde\GEN_AI_IntelliBI_Material\GenAI Assignments\cpg-retailer-rag\data\retail_sales_report.pdf
+Page: 0
+================================================================================
+3
+Surf Excel 1 kg
+Home Care
+■1.48 lakh
+4
+Amul Taaza 1 L
+Dairy
+■1.42 lakh
+5
+Dove Shampoo 180 ml
+Personal Care
+■1.31 lakh
+Interpretation Notes
+The report is synthetic and intended for retrieval and question-answering demonstrations.
+September values show illustrative month-over-month growth across all listed categories.
+
+================================================================================
+Chunk: 12
+Source: C:\Users\Satish Shinde\GEN_AI_IntelliBI_Material\GenAI Assignments\cpg-retailer-rag\data\retail_store_operations.pdf
+Page: 0
+================================================================================
+Retail Store Operations Guide
+Synthetic CPG/Retail dataset for educational RAG projects.
+Daily Store Process
+Opening staff should verify cash procedures, POS availability and critical inventory alerts.
+Receiving staff should compare delivered quantities against the purchase order and delivery document.
+Damaged cartons should be separated from saleable inventory and recorded in the inventory system.
+At closing, store teams should reconcile sales transactions and inventory exceptions.
+Merchandising Guidelines
+Fast-moving products should be placed in high-visibility areas where practical.
+Products with shorter shelf life should follow first-expiry-first-out handling.
+Promotional displays should clearly show the offer conditions and validity dates.
+Customer Service
+
+================================================================================
+Chunk: 13
+Source: C:\Users\Satish Shinde\GEN_AI_IntelliBI_Material\GenAI Assignments\cpg-retailer-rag\data\retail_store_operations.pdf
+Page: 0
+================================================================================
+Promotional displays should clearly show the offer conditions and validity dates.
+Customer Service
+Staff should verify the invoice before initiating a return.
+Customers should receive clear information about return eligibility and refund timelines.
+Escalated complaints should include order number, SKU, issue description and supporting evidence.
+
+================================================================================
+Chunk: 14
+Source: C:\Users\Satish Shinde\GEN_AI_IntelliBI_Material\GenAI Assignments\cpg-retailer-rag\data\retail_supplier_policy.pdf
+Page: 0
+================================================================================
+CPG Supplier and Procurement Policy
+Synthetic CPG/Retail dataset for educational RAG projects.
+Supplier Terms
+Approved suppliers must meet product quality, packaging, delivery and documentation requirements.
+Purchase orders should include SKU, quantity, agreed price, delivery location and required delivery date.
+Supplier invoices should reference the purchase order number.
+Supplier Master
+ Supplier ID
+Supplier
+Category
+MOQ
+Lead Time
+Payment Terms
+SUP001
+Western Beverages
+Pvt Ltd
+Beverages
+200 units
+3 days
+30 days
+SUP002
+Fresh Snack Foods
+Ltd
+Snacks
+300 units
+4 days
+30 days
+SUP003
+National Biscuit
+Supply
+Packaged Food
+250 units
+5 days
+45 days
+SUP004
+Maharashtra Dairy
+Cooperative
+Dairy
+200 units
+1 day
+15 days
+SUP005
+Care Products
+Distribution
+Personal Care
+100 units
+7 days
+30 days
+SUP006
+
+================================================================================
+Chunk: 15
+Source: C:\Users\Satish Shinde\GEN_AI_IntelliBI_Material\GenAI Assignments\cpg-retailer-rag\data\retail_supplier_policy.pdf
+Page: 0
+================================================================================
+SUP004
+Maharashtra Dairy
+Cooperative
+Dairy
+200 units
+1 day
+15 days
+SUP005
+Care Products
+Distribution
+Personal Care
+100 units
+7 days
+30 days
+SUP006
+Home Essentials
+Supply
+Home Care
+150 units
+5 days
+30 days
+Procurement Rules
+Orders below the supplier MOQ require commercial approval before release.
+Urgent orders may use expedited delivery where the supplier supports it.
+Supplier performance should be reviewed using delivery reliability, quality issues and invoice accuracy.
